@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Fil Arh</title>
+    <meta name="description" content="Portafolio profesional con trayectoria, proyectos y pasión por Android de Fil Arh.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header" role="banner">
+        <div class="wrapper">
+            <a class="logo" href="#inicio" aria-label="Ir al inicio">
+                <span class="logo__mark">FA</span>
+                <span class="logo__text">Fil Arh</span>
+            </a>
+            <nav aria-label="Principal" class="site-nav">
+                <button id="theme-toggle" class="theme-toggle" type="button" aria-live="polite" aria-label="Cambiar tema">
+                    <span class="theme-toggle__icon" aria-hidden="true">🌗</span>
+                    <span class="theme-toggle__label">Modo oscuro</span>
+                </button>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#trayectoria">Trayectoria</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#disenos">Diseños &amp; Logos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero" aria-labelledby="presentacion">
+            <div class="wrapper hero__content">
+                <div>
+                    <p class="hero__eyebrow">Desarrollador Android · Diseñador de Experiencias</p>
+                    <h1 id="presentacion">Hola, soy Fil Arh</h1>
+                    <p class="hero__text">
+                        Transformo ideas en experiencias digitales enfocadas en Android, con un enfoque en la artesanía del código,
+                        la estrategia de producto y la colaboración interdisciplinaria.
+                    </p>
+                    <div class="hero__cta">
+                        <a class="btn" href="#proyectos">Ver proyectos destacados</a>
+                        <a class="btn btn--ghost" href="#contacto">Hablemos</a>
+                    </div>
+                </div>
+                <aside class="hero__aside" aria-label="Resumen profesional">
+                    <ul>
+                        <li>
+                            <span class="hero__aside-label">Años de experiencia</span>
+                            <span class="hero__aside-value">+8</span>
+                        </li>
+                        <li>
+                            <span class="hero__aside-label">Stack favorito</span>
+                            <span class="hero__aside-value">Kotlin · Jetpack Compose</span>
+                        </li>
+                        <li>
+                            <span class="hero__aside-label">Disponible para</span>
+                            <span class="hero__aside-value">Consultorías · Mentoría · Freelance</span>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section id="trayectoria" class="section" aria-labelledby="trayectoria-titulo">
+            <div class="wrapper">
+                <header class="section__header">
+                    <p class="section__eyebrow">Trayectoria</p>
+                    <h2 id="trayectoria-titulo">Una carrera en constante evolución</h2>
+                    <p class="section__intro">
+                        Lidero y construyo productos móviles con una visión integral: desde la investigación UX hasta el lanzamiento y
+                        mantenimiento continuo. Me entusiasma crear soluciones que escalen y generen impacto real en las personas.
+                    </p>
+                </header>
+                <ol class="timeline" aria-label="Hitos profesionales">
+                    <li class="timeline__item">
+                        <div class="timeline__year">2023 — Actualidad</div>
+                        <div class="timeline__content">
+                            <h3>Lead Android Engineer · Consultor independiente</h3>
+                            <p>
+                                Mentorizo equipos, optimizo arquitecturas modulares en Kotlin y defino estrategias de publicación en
+                                Google Play. Mi trabajo se centra en la calidad del código, la automatización CI/CD y la experiencia de usuario.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="timeline__item">
+                        <div class="timeline__year">2019 — 2023</div>
+                        <div class="timeline__content">
+                            <h3>Senior Android Developer · Startups &amp; Scaleups</h3>
+                            <p>
+                                Lideré la adopción de Jetpack Compose y arquitecturas limpias, integrando analítica en tiempo real y
+                                procesos de diseño colaborativos con equipos de producto y marketing.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="timeline__item">
+                        <div class="timeline__year">2015 — 2019</div>
+                        <div class="timeline__content">
+                            <h3>Mobile Engineer · Estudio creativo</h3>
+                            <p>
+                                Diseñé experiencias inmersivas combinando Android nativo con motion graphics y microinteracciones. Trabajé
+                                codo a codo con diseñadores para traducir conceptos visuales en productos funcionales.
+                            </p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section section--alt" aria-labelledby="proyectos-titulo">
+            <div class="wrapper">
+                <header class="section__header">
+                    <p class="section__eyebrow">Proyectos</p>
+                    <h2 id="proyectos-titulo">Destacados recientes</h2>
+                    <p class="section__intro">
+                        Una selección de productos Android y colaboraciones multidisciplinarias que reflejan mi estilo estratégico y detallista.
+                    </p>
+                </header>
+                <div class="projects-grid" role="list">
+                    <article class="project-card" role="listitem">
+                        <div class="project-card__meta">2024 · Fintech</div>
+                        <h3>Wallet inteligente con Compose</h3>
+                        <p>
+                            Arquitectura modular multiplatform, animaciones fluidas y accesibilidad AA. Diseñé un lenguaje visual adaptable
+                            y escalable para nuevos verticales de negocio.
+                        </p>
+                        <ul class="project-card__tags">
+                            <li>Kotlin</li>
+                            <li>Compose</li>
+                            <li>CI/CD</li>
+                        </ul>
+                    </article>
+                    <article class="project-card" role="listitem">
+                        <div class="project-card__meta">2023 · Salud digital</div>
+                        <h3>Plataforma de bienestar</h3>
+                        <p>
+                            Integración con wearables, monitoreo en tiempo real y dashboards personalizados. Lideré discovery con usuarios
+                            para ajustar la experiencia a distintos perfiles.
+                        </p>
+                        <ul class="project-card__tags">
+                            <li>Kotlin</li>
+                            <li>Coroutines</li>
+                            <li>Analytics</li>
+                        </ul>
+                    </article>
+                    <article class="project-card" role="listitem">
+                        <div class="project-card__meta">2022 · Retail</div>
+                        <h3>Experiencia omnicanal</h3>
+                        <p>
+                            Diseño y desarrollo de journeys móviles conectados con tiendas físicas. Implementé una guía de estilo escalable
+                            para equipos internos y partners externos.
+                        </p>
+                        <ul class="project-card__tags">
+                            <li>MVVM</li>
+                            <li>Design Systems</li>
+                            <li>QA Automation</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="disenos" class="section" aria-labelledby="disenos-titulo">
+            <div class="wrapper">
+                <header class="section__header">
+                    <p class="section__eyebrow">Diseño</p>
+                    <h2 id="disenos-titulo">Logos, identidad y piezas visuales</h2>
+                    <p class="section__intro">
+                        Espacio para destacar identidades visuales, exploraciones tipográficas y sistemas de diseño que he creado para marcas
+                        y productos. Agrega aquí tus últimos casos de estudio o enlaces a dribbble y behance.
+                    </p>
+                </header>
+                <div class="design-gallery" role="list">
+                    <figure class="design-card" role="listitem">
+                        <div class="design-card__placeholder" aria-hidden="true">Tu logo aquí</div>
+                        <figcaption>Identidad visual para apps de movilidad urbana.</figcaption>
+                    </figure>
+                    <figure class="design-card" role="listitem">
+                        <div class="design-card__placeholder" aria-hidden="true">Tu logo aquí</div>
+                        <figcaption>Sistema de iconografía adaptable a Android y web.</figcaption>
+                    </figure>
+                    <figure class="design-card" role="listitem">
+                        <div class="design-card__placeholder" aria-hidden="true">Tu logo aquí</div>
+                        <figcaption>Diseños de onboarding gamificado con motion.</figcaption>
+                    </figure>
+                </div>
+                <p class="design-gallery__note">
+                    ¿Tienes nuevos diseños? Sustituye los placeholders por tus imágenes o incrusta un carrusel con tus piezas destacadas.
+                </p>
+            </div>
+        </section>
+
+        <section class="section section--quote" aria-labelledby="manifiesto-titulo">
+            <div class="wrapper">
+                <blockquote>
+                    <p id="manifiesto-titulo">
+                        “El mejor producto Android combina ingeniería impecable con una narrativa clara. Mi pasión está en encontrar ese punto de equilibrio.”
+                    </p>
+                    <cite>Fil Arh</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="contacto" class="section" aria-labelledby="contacto-titulo">
+            <div class="wrapper">
+                <header class="section__header">
+                    <p class="section__eyebrow">Contacto</p>
+                    <h2 id="contacto-titulo">Construyamos algo juntos</h2>
+                    <p class="section__intro">
+                        ¿Buscas liderazgo técnico, consultoría o una colaboración creativa? Escríbeme y conversemos sobre cómo puedo aportar valor a tu próximo proyecto.
+                    </p>
+                </header>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h3>Correo</h3>
+                        <a href="mailto:hola@filarh.dev">hola@filarh.dev</a>
+                    </div>
+                    <div class="contact-card">
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/filarh" target="_blank" rel="noreferrer noopener">linkedin.com/in/filarh</a>
+                    </div>
+                    <div class="contact-card">
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/filarh" target="_blank" rel="noreferrer noopener">github.com/filarh</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="wrapper">
+            <p>© <span id="current-year"></span> Fil Arh · Experiencias Android con propósito.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
